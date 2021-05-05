@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Eddy.P Portfolio Site Web</title>
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ubuntu:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/img/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/54d6ef0b26.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="animate" class="background-animate"></div>
+
+    <header>
+      <div class="logo">
+        <img src="/img/DEVEP.png" alt="logo" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link">Accueil</a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Mes Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">A propos de moi</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Mes travaux</a>
+          </li>
+          <li class="nav_item">
+            <a href="#education" class="nav__link">Mes Formations</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Bonjour, Je suis <strong>Eddy PERREUL</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+      <img
+        src="img/Photo carre.jpg"
+        alt="photo Eddy PERREUL"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- Mes services-->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">Mes activités</h2>
+      <div class="services">
+        <!--service1-->
+        <div class="service">
+          <h3>Développement web</h3>
+          <p>
+            Pellentesque ante ligula, fermentum nec turpis at, fermentum
+            consequat augue. Praesent feugiat scelerisque magna, sed dapibus
+            erat faucibus nec. In at risus in enim ultricies fermentum.
+          </p>
+        </div>
+        <!--service2-->
+        <div class="service">
+          <h3>Maintenance & Optimisation</h3>
+          <p>
+            Vestibulum in odio dignissim, hendrerit nunc ac, pellentesque odio.
+            Curabitur venenatis nisi a convallis euismod. Cras fringilla gravida
+            nibh, sed pulvinar augue. Ut iaculis rhoncus leo, quis blandit nisi
+            ultricies a.
+          </p>
+        </div>
+        <!--service3-->
+        <div class="service">
+          <h3>Consultant Web</h3>
+          <p>
+            Aliquam consectetur vestibulum nunc, eu molestie metus lobortis eu.
+            Mauris consectetur vitae enim id dapibus. Curabitur at consequat
+            tortor. Pellentesque at tempor massa.
+          </p>
+        </div>
+      </div>
+      <a href="#work" class="btn">Mes travaux</a>
+    </section>
+
+    <!-- A propos de moi -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Qui suis-je</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Dev web & app mobile
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          Nulla tempor magna sed odio vulputate rhoncus. Pellentesque sapien
+          velit, auctor commodo bibendum in, mattis in urna. Proin eu sem
+          molestie elit tempor venenatis ut ac ante.
+        </p>
+        <p>
+          Suspendisse mollis elit nulla, a rutrum lectus egestas a. Nam et
+          dapibus ipsum. Vestibulum sed consectetur nisl. Donec quis dui cursus,
+          finibus magna suscipit, feugiat dolor.
+        </p>
+      </div>
+      <img
+        src="/img/work-eddy.jpg"
+        alt="Eddy en train de travailler"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- Mes Travaux-->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">Mes travaux</h2>
+      <p class="section__subtitle section__subtitle--work">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+
+      <div class="portfolio">
+        <!-- Travaux1-->
+        <a href="#" class="portfolio__item">
+          <img
+            src="img/page-carousel.png"
+            alt="photo exemple travaux"
+            class="portfolio__img"
+          />
+        </a>
+        <!-- Travaux2-->
+        <a href="#" class="portfolio__item">
+          <img
+            src="img/page-dual-screen.png"
+            alt="photo exemple travaux"
+            class="portfolio__img"
+          />
+        </a>
+        <!-- Travaux3-->
+        <a href="#" class="portfolio__item">
+          <img
+            src="img/page-statistic.png"
+            alt="photo exemple travaux"
+            class="portfolio__img"
+          />
+        </a>
+        <!-- Travaux4-->
+        <a href="#" class="portfolio__item">
+          <img
+            src="img/page-template.png"
+            alt="photo exemple travaux"
+            class="portfolio__img"
+          />
+        </a>
+        <!-- Travaux5-->
+        <a href="#" class="portfolio__item">
+          <img
+            src="img/page-website.jpg"
+            alt="photo exemple travaux"
+            class="portfolio__img"
+          />
+        </a>
+        <!-- Travaux6-->
+        <a href="#" class="portfolio__item">
+          <img
+            src="img/page-youtube.png"
+            alt="photo exemple travaux"
+            class="portfolio__img"
+          />
+        </a>
+      </div>
+    </section>
+
+    <!-- Mes formations-->
+
+    <section class="my-education" id="education">
+      <h2 class="section__title section__title--education">Mes formations</h2>
+      <p class="section__subtitle section__subtitle--education">
+        Qu'elles sont mes formations et mes certifications
+      </p>
+
+      <div>
+        <h3>Titre ecole</h3>
+        <p>
+          Fusce ipsum turpis, finibus a venenatis viverra, lacinia ut erat.
+          Aliquam venenatis turpis felis, non condimentum massa vulputate quis.
+          Cras at efficitur eros, quis cursus mi. Praesent posuere ligula ut
+          consectetur tempus. Aliquam lacinia ut felis ac condimentum. Sed ac
+          arcu mollis, mattis dolor ac, mollis nibh. Pellentesque vestibulum
+          nunc non metus facilisis efficitur.
+        </p>
+        <a href="#" class="my-education__link">Lien vers l'école</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:e.perreul@gmail.com" class="footer__link"
+        ><i class="fas fa-paper-plane"></i
+      ></a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/eddy-perreul-61618b129/"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/EddyPERREUL"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://codepen.io/EddyPERREUL"
+            ><i class="fab fa-codepen"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://codesandbox.io/u/EddyPERREUL"
+            ><i class="fas fa-code"></i
+          ></a>
+        </li>
+      </ul>
+      <p>&copy; 2021 Développé par Eddy PERREUL</p>
+    </footer>
+  </body>
+
+  <script src="js/index.js"></script>
+</html>
