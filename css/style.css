@@ -395,6 +395,16 @@ header {
   }
 }
 
+/* Video */
+
+.video {
+  aspect-ratio: 16 / 9;
+  width: 720px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
 /* Mes travaux */
 
 .my-work {
