@@ -358,18 +358,14 @@ header {
 
 .video {
   display: block;
-  aspect-ratio: 16 / 9;
-  width: 100%;
-  margin: 15px auto 0 auto;
+  position: relative;
+  margin: 15px auto;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 1000px) {
   .video {
-    aspect-ratio: 16 / 9;
-    width: 720px;
-    display: block;
+    aspect-ratio: 16/9;
     margin: 0 auto;
-    position: relative;
   }
 }
 
