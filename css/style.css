@@ -58,6 +58,10 @@ section {
   padding: 5em 2em;
 }
 
+article {
+  margin-bottom: 24px;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -120,6 +124,7 @@ h3 {
 }
 
 .section__title--intro strong {
+  font-weight: var(--fw-medium);
   display: block;
 }
 
@@ -422,6 +427,15 @@ header {
   margin: 0 auto;
 }
 
+.my-education__ul {
+  list-style: none;
+}
+
+.my-education__ul > li::before {
+  content: "• ";
+  color: var(--clr-accent);
+}
+
 .my-education__link {
   text-decoration: none;
 }
@@ -429,7 +443,7 @@ header {
 /* Footer */
 
 .footer {
-  background: #111;
+  background: var(--clr-dark);
   color: var(--clr-accent);
   text-align: center;
   padding: 1.5em 0 0.2em 0;
