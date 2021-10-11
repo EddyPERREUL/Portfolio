@@ -24,7 +24,7 @@
   <body>
     <header>
       <div class="logo">
-        <img src="/img/DEVEP.png" alt="logo" />
+        <a href="/index.html"><img src="/img/DEVEP.png" alt="logo" /></a>
       </div>
       <button class="nav-toggle" aria-label="toggle navigation">
         <span class="hamburger"></span>
@@ -89,8 +89,9 @@
         class="about-me__img"
       />
       <!-- Video de presentation animate -->
+      <hr class="about-me_hr" />
       <iframe
-        class="video"
+        class="about-me_video"
         width="100%"
         height="auto"
         src="https://www.youtube.com/embed/Bf7i8CZ0fT8"
@@ -114,7 +115,7 @@
       </p>
 
       <div class="portfolio">
-        <!-- Travaux1-->
+        <!-- Snowfalls -->
         <a href="https://snowfalls.netlify.app/" class="portfolio__item">
           <img
             src="img/thumbnail_SnowFalls_optimiz.jpg"
@@ -122,43 +123,47 @@
             class="portfolio__img"
           />
         </a>
-        <!-- Travaux2-->
+
+        <!-- TripleDare -->
+        <a href="https://tripledare-alyra.netlify.app/" class="portfolio__item">
+          <img
+            src="img/thumbnail_TripleDare_optimiz.jpg"
+            alt="miniature projet Triple Dare"
+            class="portfolio__img"
+          />
+        </a>
+        <!-- Top-list-ressource -->
+        <a
+          href="https://top-list-ressource.netlify.app/"
+          class="portfolio__item"
+        >
+          <img
+            src="img/thumbnail_TopRessources_optimiz.jpg"
+            alt="miniature projet Top-list-ressource"
+            class="portfolio__img"
+          />
+        </a>
+        <!-- SortList -->
+        <a href="https://sortlist-alyra.netlify.app/" class="portfolio__item">
+          <img
+            src="img/thumbnail_SortList_optimiz.jpg"
+            alt="miniature projet trie d'une liste"
+            class="portfolio__img"
+          />
+        </a>
+        <!-- CodeFactor -->
         <a href="https://site-service.netlify.app/" class="portfolio__item">
           <img
             src="img/thumbnail_CodeFactor_optimiz.jpg"
-            alt="site service Code Factor"
+            alt="miniature site service Code Factor"
             class="portfolio__img"
           />
         </a>
-        <!-- Travaux3-->
+        <!-- FakeCV-->
         <a href="https://jonhwickcv.netlify.app/" class="portfolio__item">
           <img
             src="img/thumbnail_fake_CV_JonhWick_optimiz.jpg"
-            alt="fake CV JonhWick"
-            class="portfolio__img"
-          />
-        </a>
-        <!-- Travaux4-->
-        <a href="#" class="portfolio__item">
-          <img
-            src="img/page-template.png"
-            alt="photo exemple travaux"
-            class="portfolio__img"
-          />
-        </a>
-        <!-- Travaux5-->
-        <a href="#" class="portfolio__item">
-          <img
-            src="img/page-website.jpg"
-            alt="photo exemple travaux"
-            class="portfolio__img"
-          />
-        </a>
-        <!-- Travaux6-->
-        <a href="#" class="portfolio__item">
-          <img
-            src="img/page-youtube.png"
-            alt="photo exemple travaux"
+            alt="miniature fake CV JonhWick"
             class="portfolio__img"
           />
         </a>
@@ -172,7 +177,7 @@
       <p class="section__subtitle section__subtitle--education">
         Par ce que apprendre est important
       </p>
-
+      <!-- Alt-Rh, téléprésence | 2021 -->
       <article>
         <h3>Alt-Rh, téléprésence | 2021</h3>
         <p>
@@ -194,6 +199,8 @@
           >Lien vers l'école</a
         >
       </article>
+      <hr class="my-education_hr" />
+      <!-- Alyra, téléprésence | 2020 -->
       <article>
         <h3>Alyra, téléprésence | 2020</h3>
         <p>
@@ -218,6 +225,11 @@
 
     <!-- Footer -->
     <footer class="footer">
+      <img
+        class="footer-img"
+        src="img/footer.jpg"
+        alt="zoom sur le clavier éclairé en violet"
+      />
       <a href="mailto:e.perreul@gmail.com" class="footer__link"
         ><i class="fas fa-paper-plane"></i
       ></a>
