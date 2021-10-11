@@ -389,6 +389,9 @@ header {
   display: block;
   aspect-ratio: 16/9;
   position: relative;
+  width: 100%;
+  height: auto;
+  border: 0;
 }
 
 .about-me_hr {
