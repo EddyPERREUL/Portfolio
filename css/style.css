@@ -73,7 +73,7 @@ strong {
 }
 
 :focus {
-  outline: 3px solid var(--clr-accent);
+  outline: 1px solid var(--clr-accent);
   outline-offset: 3px;
 }
 
@@ -347,7 +347,23 @@ header {
   content: "_________________";
   width: 100%;
   color: yellow;
-  margin: 15px;
+  margin: 24px;
+}
+
+.about-me__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me__button-read-more {
+  width: auto;
+  border: 0;
+  background-color: var(--clr-light);
+  color: var(--clr-dark);
+}
+
+.about-me__button-read-more:hover {
+  color: var(--clr-accent);
 }
 
 @media (min-width: 600px) {
@@ -366,6 +382,7 @@ header {
   }
 
   .section__subtitle--about {
+    grid-area: subtitle;
     grid-column: 1 / -1;
     grid-row: 2;
     position: relative;
@@ -381,9 +398,13 @@ header {
     position: relative;
     z-index: 2;
   }
+
+  .about-me__text {
+    grid-area: text;
+  }
 }
 
-/* Video */
+/* Qui suis-je > Video */
 
 .about-me_video {
   display: block;
@@ -444,7 +465,7 @@ header {
 }
 
 .portfolio__item {
-  background-color: var(--clr-accent);
+  background-color: var(--clr-dark);
   overflow: hidden;
   border-radius: var(--br-radius);
 }
